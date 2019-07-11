@@ -1,0 +1,43 @@
+{
+  "name": "t2-backend-api-ManishBuddhacharya",
+  "version": "1.0.0",
+  "description": "Name: Your Full Name",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js",
+    "migration:make": "knex migrate:make --knexfile ./knexfile.js",
+    "migration:run": "knex migrate:latest --knexfile ./knexfile.js",
+    "watch": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stw304cem/t2-backend-api-ManishBuddhacharya.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stw304cem/t2-backend-api-ManishBuddhacharya/issues"
+  },
+  "homepage": "https://github.com/stw304cem/t2-backend-api-ManishBuddhacharya#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.16.5",
+    "logger": "0.0.1",
+    "multer": "^1.4.1",
+    "mysql": "^2.17.1",
+    "mysql3": "^0.2.2",
+    "nodemon": "^1.19.0",
+    "select2": "^4.0.7",
+    "sqlite3": "^4.0.8"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "axios": "^0.18.0"
+  }
+}
