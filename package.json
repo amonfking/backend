@@ -38,6 +38,6 @@
   },
   "devDependencies": {
     "jest": "^24.8.0",
-    "axios": "^0.18.0"
+    "axios": "^0.21.1"
   }
 }
